@@ -419,7 +419,7 @@ def print_items_at_odd_indices(sequence):
     #          Tests have been written for you (above).
     # -------------------------------------------------------------------------
     for k in range(1, len(sequence), 2):
-        print(sequence[k])
+        print(sequence[k], 'is at index', k)
 
 ###############################################################################
 # Iterating through PART of a sequence:
@@ -476,7 +476,7 @@ def print_items_that_are_bigger_than_5(sequence):
     # -------------------------------------------------------------------------
     for k in range(len(sequence)):
         if sequence[k] > 5:
-            print(sequence[k])
+            print(sequence[k], 'is at index', k)
 
 ###############################################################################
 # Iterating through a sequence, selecting items:
@@ -510,7 +510,7 @@ def print_items_that_are_strings(sequence):
     for k in range(len(sequence)):
         item = sequence[k]
         if type(item) is str:
-            print(sequence[k])
+            print(sequence[k], 'is at index', k)
 
 ###############################################################################
 # Iterating through a sequence, selecting items:
